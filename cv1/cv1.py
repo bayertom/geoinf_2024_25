@@ -22,7 +22,7 @@ elif D == 0:
 else:
     print("no solution in R")
     
-#Compute factorial
+#Compute factorial using while
 n = 100
 fn = 1
 while n>1:
