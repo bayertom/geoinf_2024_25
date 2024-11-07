@@ -35,3 +35,7 @@ def  getNN(xq, yq, zq, X, Y, Z):
             yn = Y[i]
             zn = Z[i]
     return xn, yn, zn, dmin
+
+
+#Load points
+X, Y, Z = loadPoints('points2.txt')
